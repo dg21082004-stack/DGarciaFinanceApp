@@ -1,4 +1,4 @@
-package com.example.dgarciafinanceapp.models
+package com.example.dgarciafinanceapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,8 +18,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-//import com.example.dgarciafinanceapp.models.user
 import com.example.dgarciafinanceapp.ui.theme.DGarciaFinanceAppTheme
+import com.example.dgarciafinanceapp.components.FinanceSummaryCard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +43,7 @@ data class User(
 
 
 
-val user = User("Miguel", 280.99)
+val user = User("Diego", 280.99)
 
 
 @Composable
